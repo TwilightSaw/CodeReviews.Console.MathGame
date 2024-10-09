@@ -24,7 +24,7 @@ public class Menu
 
             Console.Write("Choose your operation: ");
             int inp;
-            bool success = int.TryParse(Console.ReadLine(), out inp);
+            int.TryParse(Console.ReadLine(), out inp);
             switch (inp)
             {
                 case 1:
